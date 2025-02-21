@@ -1,52 +1,66 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { Pressable, StyleSheet, Text, View } from 'react-native';
 import { Button, Card } from 'react-native-paper';
 import { router } from 'expo-router';
+import FontAwesome5 from '@expo/vector-icons/FontAwesome5';
 
-const CategoryCard = ({ category }) => {
-    return (
-        <Card style={styles.card}>
-          <Card.Title 
-            title={category} 
-            titleStyle={styles.title} 
-          />
-          <Card.Content style={styles.content}>
-            <Text style={styles.text}>Explore {category} questions</Text>
-          </Card.Content>
-          <Card.Actions>
-            <View style={styles.buttonContainer}>
-            <Button mode="contained" onPress={() => router.push(`/questions?category=${category}`)}>
-                Select
-              </Button>
-            </View>
-          </Card.Actions>
-        </Card>
-      );
-    };
+type CategoryCardInfo = {
+  category: string;
+  categoryInfo: {
+    icon: string
+    questions: []
+  };
+}
+
+const CategoryCard: React.FC<CategoryCardInfo> = ({ category, categoryInfo }) => {
+  console.log(categoryInfo)
+  return (
+    <Pressable style={styles.card} onPress={() => router.push({
+      pathname: '/questions',
+      params: { category }
+    })}>
+      <View style={styles.infoContainer}>
+        <Text style={styles.title}>{category}</Text>
+        <Text style={styles.questionInfo}>Count: {categoryInfo.questions.length}</Text>
+      </View>
+      <FontAwesome5 name='arrow-right' size={50} color="white" />
+    </Pressable>
+  );
+};
 
 const styles = StyleSheet.create({
-    card: {
-      width: '43%',
-        margin: 10,
-        height: 150,
-        justifyContent: 'space-between',
-        alignItems: 'center', // Horizontally center the content
-    },
-    title: {
-        textAlign: 'center', // Center the title text
-    },
-    content: {
-        alignItems: 'center', // Center the content
-    },
-    buttonContainer: {
-        flex: 1,
-        justifyContent: 'center', // Center the button within the container
-        alignItems: 'center', // Center the button within the container
-    },
-    text: {
-        color: '#888', // Light gray text color
-        textAlign: 'center', // Center the title text
-    },
+  card: {
+    margin: 10,
+    paddingHorizontal: 30,
+    height: 120,
+    display: 'flex',
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    backgroundColor: 'black',
+    opacity: 0.75, 
+    borderWidth: 2, 
+    borderColor: 'white',
+    borderRadius: 8,      
+  },
+  infoContainer: {
+    flex: 1
+  },
+  title: {
+    textAlign: 'left', 
+    color: 'white',
+    fontSize: 20, 
+    fontWeight: 'bold'
+  },
+  questionInfo: {
+    textAlign: 'left', 
+    color: 'white',
+    fontSize: 15, 
+  },
+  content: {
+    alignItems: 'center',
+    width: '100%',
+  },
 });
 
 export default CategoryCard;

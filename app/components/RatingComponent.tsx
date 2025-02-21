@@ -2,12 +2,21 @@ import React, { useState } from 'react';
 import { View, TouchableOpacity, StyleSheet } from 'react-native';
 import { MaterialIcons } from '@expo/vector-icons';
 
-const RatingComponent = () => {
+const RatingComponent = ({isPressable, category, position, isFlipped}) => {
   const [rating, setRating] = useState(0);
 
   const handlePress = (index: number) => {
-    setRating(index + 1);
-    console.log(`Star position: ${index + 1}`);
+    if (!isFlipped) return;
+    // if (!isPressable && isFlipped) return;
+    console.log('Rating:', index + 1);
+    console.log('Category:', category);
+    console.log('Question No:', position);
+
+    if (rating === index + 1) {
+      setRating(0);
+    } else {
+      setRating(index + 1);
+    }
   };
 
   return (
@@ -17,7 +26,7 @@ const RatingComponent = () => {
           <MaterialIcons
             name={index < rating ? 'star' : 'star-border'}
             size={32}
-            color={index < rating ? '#FFD700' : '#000'}
+            color={index < rating ? '#FFD700' : 'white'}
           />
         </TouchableOpacity>
       ))}
@@ -27,10 +36,13 @@ const RatingComponent = () => {
 
 const styles = StyleSheet.create({
   container: {
+    display: 'flex',
     flexDirection: 'row',
     justifyContent: 'space-evenly',
-    alignItems: 'center',
-    width: '100%'
+    width: '90%',
+    position: 'absolute',
+    bottom: 40,
+    padding: 10,
   },
 });
 

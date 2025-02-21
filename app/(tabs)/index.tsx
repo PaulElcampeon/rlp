@@ -1,22 +1,25 @@
-import { Text, View, StyleSheet } from 'react-native';
+import { Text, View, StyleSheet, ImageBackground } from 'react-native';
 import { Link } from 'expo-router';
 import { Button } from 'react-native-paper';
 
 export default function Index() {
   return (
     <View style={styles.container}>
-
-      <View style={styles.card}>
-        <View style={styles.cardContent}>
-          <Text style={styles.cardText}>Relationship Love Probe</Text>
-        </View>
-        <View>
+      <ImageBackground
+        source={require('../../assets/images/rlp-logo-1.png')}
+        style={styles.imageBackground}
+        resizeMode="contain"
+      >
+      </ImageBackground>
+      <View style={styles.cardContent}>
+        <Text style={styles.cardText}>Relationship Love Probe</Text>
+      </View>
+      <View style={styles.startButtonContainer}>
         <Link href="/category" asChild>
-        <Button mode="contained" style={styles.startButton}>
-          Start
-        </Button>
-      </Link>
-        </View>
+          <Button mode="contained" style={styles.startButton} labelStyle={styles.startButtonText}>
+            Start
+          </Button>
+        </Link>
       </View>
     </View>
   );
@@ -24,38 +27,43 @@ export default function Index() {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    backgroundColor: '#25292e',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  card: {
-    flex: 0.8,
-    width: '70%',
-    marginTop: 20,
-    padding: 20,
-    backgroundColor: '#fff',
-    borderRadius: 8,
-    shadowColor: '#000',
-    shadowOffset: { width: 0, height: 2 },
-    shadowOpacity: 0.1,
-    shadowRadius: 8,
-    elevation: 5,
     display: 'flex',
-    justifyContent: 'center',
+    flex: 1,
+    backgroundColor: 'black',
   },
   cardContent: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
+    position: 'absolute', // Position the image absolutely
+    top: '65%', // Center vertically
+    width: '100%', // Make sure it spans the full width of the container
+    alignItems: 'center', // Ensure content is centered horizontally
   },
   cardText: {
-    fontSize: 16,
+    fontSize: 18,
     textAlign: 'center',
-    color: '#000',
+    color: 'white',
+  },
+  startButtonContainer: {
+    position: 'absolute', // Position the image absolutely
+    top: '75%', // Place it below the text
+    width: '100%', // Make sure it spans the full width of the container
+    alignItems: 'center', // Ensure content is centered horizontally
   },
   startButton: {
-    width: '80%',
-    alignSelf: 'center',
+    borderWidth: 3, // Add border width
+    borderColor: 'white',
+    backgroundColor: 'black',
+    display: 'flex',
+  },
+  startButtonText: {
+    fontSize: 18, // Set the font size of the button text
+    color: 'white', // Set the text color of the button
+  },
+  imageBackground: {
+    position: 'absolute', // Position the image absolutely
+    top: '50%', // Center vertically
+    left: '50%', // Center horizontally
+    width: 200, // Set image width
+    height: 200, // Set image height
+    transform: [{ translateX: -100 }, { translateY: -100 }],
   },
 });

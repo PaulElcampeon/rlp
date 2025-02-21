@@ -1,4 +1,4 @@
-import { View, StyleSheet, FlatList } from 'react-native';
+import { View, StyleSheet, FlatList, ImageBackground } from 'react-native';
 import CategoryCard from '../components/CategoryCard';
 import { questions } from '../data/questions';
 
@@ -7,13 +7,19 @@ const categories = Object.keys(questions)
 export default function CategoryScreen() {
   return (
     <View style={styles.container}>
+      <ImageBackground
+        source={require('../../assets/images/rlp-logo-1.png')}
+        style={styles.imageBackground}
+        resizeMode="contain"
+      >
+      </ImageBackground>
       <FlatList
         data={categories}
-        renderItem={({ item }) => <CategoryCard category={item} />}
+        renderItem={({ item }) => <CategoryCard category={item} categoryInfo={questions[item]} />}
         keyExtractor={(item) => item}
-        numColumns={2} // Display items in a grid format with 2 columns
-        columnWrapperStyle={styles.column}
+        numColumns={1}
         contentContainerStyle={styles.contentContainer}
+        style={styles.flatList}
       />
     </View>
   );
@@ -21,20 +27,27 @@ export default function CategoryScreen() {
 
 const styles = StyleSheet.create({
   container: {
+    display: 'flex',
     flex: 1,
-    backgroundColor: '#25292e',
+    backgroundColor: 'black',
     justifyContent: 'center',
     alignItems: 'center',
   },
   text: {
     color: '#fff',
   },
-  column: {
-    flex: 1,
-    justifyContent: 'space-between',
-  },
   contentContainer: {
-    paddingHorizontal: 10,
     paddingVertical: 20,
+  },
+  flatList: {
+    width: '100%',
+  },
+  imageBackground: {
+    position: 'absolute',
+    top: '50%',
+    left: '50%',
+    width: 200,
+    height: 200,
+    transform: [{ translateX: -100 }, { translateY: -100 }],
   },
 });
