@@ -1,6 +1,4 @@
 import { Text, View, StyleSheet, ImageBackground } from 'react-native';
-import { Link } from 'expo-router';
-import { Card } from 'react-native-paper';
 
 export default function About() {
   return (
@@ -37,11 +35,11 @@ const styles = StyleSheet.create({
     justifyContent: 'center'
   },
   imageBackground: {
-    position: 'absolute', // Position the image absolutely
-    top: '50%', // Center vertically
-    left: '50%', // Center horizontally
-    width: 200, // Set image width
-    height: 200, // Set image height
+    position: 'absolute',
+    top: '50%', 
+    left: '50%', 
+    width: 200,
+    height: 200, 
     transform: [{ translateX: -100 }, { translateY: -100 }],
   },
   card: {

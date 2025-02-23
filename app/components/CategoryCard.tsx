@@ -1,6 +1,5 @@
 import React from 'react';
 import { Pressable, StyleSheet, Text, View } from 'react-native';
-import { Button, Card } from 'react-native-paper';
 import { router } from 'expo-router';
 import FontAwesome5 from '@expo/vector-icons/FontAwesome5';
 

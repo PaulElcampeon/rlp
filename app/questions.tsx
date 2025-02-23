@@ -1,13 +1,10 @@
-import React, { useState, useLayoutEffect } from 'react';
+import React, { useLayoutEffect } from 'react';
 import { View, StyleSheet } from 'react-native';
-import Card from './components/QuestionCard1';
+import Card from './components/QuestionCard';
 import data from './data/questions.json';
-
-// import { questions } from './data/questions';
 import { useNavigation, useRoute } from '@react-navigation/native';
 
 const QuestionCard = () => {
-  const [isPressable, setIsPressable] = useState(true);
   const route = useRoute(); // Get route params
   const navigation = useNavigation();
   const category = route.params?.category || '';
@@ -30,9 +27,7 @@ const QuestionCard = () => {
           position={index}
           category={category}
           question={question}
-          zIndex={data.questions[category].length - index}
-          isPressable={isPressable}
-          setIsPressable={setIsPressable} />
+          zIndex={data.questions[category].length - index}/>
       )}
     </View>
   );

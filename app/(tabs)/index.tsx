@@ -32,10 +32,10 @@ const styles = StyleSheet.create({
     backgroundColor: 'black',
   },
   cardContent: {
-    position: 'absolute', // Position the image absolutely
-    top: '65%', // Center vertically
-    width: '100%', // Make sure it spans the full width of the container
-    alignItems: 'center', // Ensure content is centered horizontally
+    position: 'absolute', 
+    top: '65%', 
+    width: '100%', 
+    alignItems: 'center', 
   },
   cardText: {
     fontSize: 18,
@@ -43,27 +43,27 @@ const styles = StyleSheet.create({
     color: 'white',
   },
   startButtonContainer: {
-    position: 'absolute', // Position the image absolutely
-    top: '75%', // Place it below the text
-    width: '100%', // Make sure it spans the full width of the container
-    alignItems: 'center', // Ensure content is centered horizontally
+    position: 'absolute', 
+    top: '75%', 
+    width: '100%', 
+    alignItems: 'center',
   },
   startButton: {
-    borderWidth: 3, // Add border width
+    borderWidth: 3, 
     borderColor: 'white',
     backgroundColor: 'black',
     display: 'flex',
   },
   startButtonText: {
-    fontSize: 18, // Set the font size of the button text
-    color: 'white', // Set the text color of the button
+    fontSize: 18, 
+    color: 'white', 
   },
   imageBackground: {
-    position: 'absolute', // Position the image absolutely
-    top: '50%', // Center vertically
-    left: '50%', // Center horizontally
-    width: 200, // Set image width
-    height: 200, // Set image height
+    position: 'absolute', 
+    top: '50%', 
+    left: '50%',
+    width: 200, 
+    height: 200,
     transform: [{ translateX: -100 }, { translateY: -100 }],
   },
 });

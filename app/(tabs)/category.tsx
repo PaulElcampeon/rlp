@@ -1,6 +1,5 @@
 import { View, StyleSheet, FlatList, ImageBackground } from 'react-native';
 import CategoryCard from '../components/CategoryCard';
-// import { questions } from '../data/questions';
 import data from '../data/questions.json';
 
 const categories = Object.keys(data.questions)

@@ -4,14 +4,13 @@ import ShareComponent from './ShareComponent';
 import RatingComponent from './RatingComponent';
 import { usePreventScreenCapture } from 'expo-screen-capture';
 
-const Card = ({ position, category, question, zIndex, isPressable, setIsPressable }) => {
+const Card = ({ position, category, question, zIndex }) => {
   const [isFlipped, setIsFlipped] = useState(false);
   const [isScaled, setIsScaled] = useState(false);
   const flipAnimation = useRef(new Animated.Value(0)).current;
   const scaleAnimation = useRef(new Animated.Value(1)).current;
   const translateXAnimation = useRef(new Animated.Value(0)).current;
   const translateYAnimation = useRef(new Animated.Value(0)).current;
-
   if (Platform.OS !== 'web') {
     usePreventScreenCapture();
   }
@@ -99,7 +98,6 @@ const Card = ({ position, category, question, zIndex, isPressable, setIsPressabl
       .start(() => {
         setIsScaled(true);
         setIsFlipped(false);
-        setIsPressable(true);
       });
   }
 
@@ -113,7 +111,6 @@ const Card = ({ position, category, question, zIndex, isPressable, setIsPressabl
     ])
       .start(() => {
         setIsScaled(false);
-        setIsPressable(true);
       });
   }
 
@@ -121,17 +118,11 @@ const Card = ({ position, category, question, zIndex, isPressable, setIsPressabl
     Animated.spring(flipAnimation, flipAnimationSpringPropsToRevealQuestion())
       .start(() => {
         setIsFlipped(true);
-        setIsPressable(true);
       });
   }
 
   const handleCardPress = () => {
-    if (!isPressable) return;
-
-    // setIsPressable(false);
-
     if (isQuestionShowing() && !isQuestionTuckedAway()) {
-      // setIsPressable(false);
       scaleDownAndMoveToBottomLeftAndFlipCardBackToFront();
       return;
     }
@@ -148,24 +139,26 @@ const Card = ({ position, category, question, zIndex, isPressable, setIsPressabl
 
   return (
     <Animated.View style={[styles.pressable, scaleStyle, { zIndex: isScaled ? 1000 : zIndex }]}>
-      <Pressable onPress={handleCardPress} style={styles.pressable} disabled={!isPressable}>
+      <Pressable onPress={handleCardPress} style={styles.pressable}>
         <View style={styles.cardContainer}>
           <Animated.View style={[styles.card, styles.cardFront, flipToFrontStyle]}>
             <ImageBackground
-              source={require('../../assets/images/3.png')} // Replace with your image path
-              style={styles.imageBackground}
+              source={require('../../assets/images/rlp-logo-1.png')}
+              style={styles.imageBackgroundBackCard}
             >
             </ImageBackground>
+            <Text style={styles.flipText}>CLICK</Text>
           </Animated.View>
           <Animated.View style={[styles.card, styles.cardBack, flipToBackStyle]}>
             <ImageBackground
-              source={require('../../assets/images/4.png')} // Replace with your image path
-              style={styles.imageBackground}
+              source={require('../../assets/images/rlp-logo-1.png')}
+              style={styles.imageBackgroundFrontCard}
             >
-              <Text style={styles.text}>{question.text}</Text>
-              <ShareComponent message={`Check out this question from the ${category} category: https://example.com/category/${category}/${position}`} />
-              <RatingComponent category={category} position={position} isPressable={isPressable} isFlipped={isFlipped} />
             </ImageBackground>
+            <Text style={styles.categoryText}>{category}</Text>
+            <Text style={styles.text}>{question.text}</Text>
+            <ShareComponent message={`Check out this question from the ${category} category: https://example.com/category/${category}/${position}`} />
+            <RatingComponent ratingValue={question.rating} category={category} position={position} isFlipped={isFlipped} />
           </Animated.View>
         </View>
       </Pressable>
@@ -176,25 +169,47 @@ const Card = ({ position, category, question, zIndex, isPressable, setIsPressabl
 const { width, height } = Dimensions.get('window');
 
 const styles = StyleSheet.create({
-  imageBackground: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    width: '100%',
-    height: '100%',
-    borderRadius: 10,
-    overflow: 'hidden',
-  },
   pressable: {
     position: 'absolute',
+    top: '10%',
     width: width * 0.7,
     height: height * 0.6,
+  },
+  imageBackgroundBackCard: {
+    position: 'absolute',
+    top: '30%',
+    width: 150,
+    height: 150,
+  },
+  categoryText: {
+    position: 'absolute',
+    top: '10%',
+    color: 'white',
+    fontSize: 15,
+    fontWeight: 'bold',
+    letterSpacing: 10
+  },
+  flipText: {
+    position: 'absolute',
+    top: '75%',
+    color: 'white',
+    fontSize: 20,
+    fontWeight: 'bold',
+    letterSpacing: 10
+  },
+  imageBackgroundFrontCard: {
+    position: 'absolute',
+    top: '30%',
+    width: 150,
+    height: 150,
+    opacity: 0.3,
   },
   cardContainer: {
     width: '100%',
     height: '100%',
     justifyContent: 'center',
     alignItems: 'center',
+    backgroundColor: 'black'
   },
   card: {
     width: '100%',
@@ -205,22 +220,20 @@ const styles = StyleSheet.create({
     elevation: 5,
     backfaceVisibility: 'hidden',
     position: 'absolute',
-    borderWidth: 2, // Add border width
-    borderColor: 'black', // Add border color
+    borderWidth: 3,
+    borderColor: 'white',
   },
   cardFront: {
-    // backgroundColor: '#ff0000', // Front side color (red)
   },
   cardBack: {
-    // backgroundColor: '#0000ff', // Back side color (blue)
     transform: [{ rotateY: '180deg' }], // Ensure the back side is rotated
   },
   text: {
-    fontSize: 20,
+    width: '90%',
+    fontSize: 17,
     textAlign: 'center',
-    width: '80%',
-    fontWeight: 'bold',
-    color: 'black', // Changed to white for better contrast
+    color: 'white',
+    letterSpacing: 5
   },
 });
 

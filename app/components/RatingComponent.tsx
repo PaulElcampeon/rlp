@@ -2,12 +2,11 @@ import React, { useState } from 'react';
 import { View, TouchableOpacity, StyleSheet } from 'react-native';
 import { MaterialIcons } from '@expo/vector-icons';
 
-const RatingComponent = ({ratingValue, isPressable, category, position, isFlipped}) => {
+const RatingComponent = ({ratingValue, category, position, isFlipped}) => {
   const [rating, setRating] = useState(ratingValue);
 
   const handlePress = (index: number) => {
     if (!isFlipped) return;
-    // if (!isPressable && isFlipped) return;
     console.log('Rating:', index + 1);
     console.log('Category:', category);
     console.log('Question No:', position);
