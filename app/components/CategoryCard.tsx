@@ -6,22 +6,18 @@ import FontAwesome5 from '@expo/vector-icons/FontAwesome5';
 
 type CategoryCardInfo = {
   category: string;
-  categoryInfo: {
-    icon: string
-    questions: []
-  };
+  questions: []
 }
 
-const CategoryCard: React.FC<CategoryCardInfo> = ({ category, categoryInfo }) => {
-  console.log(categoryInfo)
+const CategoryCard: React.FC<CategoryCardInfo> = ({ category, questions }) => {
   return (
     <Pressable style={styles.card} onPress={() => router.push({
       pathname: '/questions',
       params: { category }
     })}>
       <View style={styles.infoContainer}>
-        <Text style={styles.title}>{category}</Text>
-        <Text style={styles.questionInfo}>Count: {categoryInfo.questions.length}</Text>
+        <Text style={styles.title}>{category.toUpperCase()}</Text>
+        <Text style={styles.questionInfo}>Count: {questions.length}</Text>
       </View>
       <FontAwesome5 name='arrow-right' size={50} color="white" />
     </Pressable>

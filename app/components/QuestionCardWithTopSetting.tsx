@@ -4,13 +4,14 @@ import ShareComponent from './ShareComponent';
 import RatingComponent from './RatingComponent';
 import { usePreventScreenCapture } from 'expo-screen-capture';
 
-const Card = ({ position, category, question, zIndex, isPressable, setIsPressable }) => {
+const Card = ({ top, position, category, question, zIndex, isPressable, setIsPressable }) => {
   const [isFlipped, setIsFlipped] = useState(false);
   const [isScaled, setIsScaled] = useState(false);
   const flipAnimation = useRef(new Animated.Value(0)).current;
   const scaleAnimation = useRef(new Animated.Value(1)).current;
   const translateXAnimation = useRef(new Animated.Value(0)).current;
   const translateYAnimation = useRef(new Animated.Value(0)).current;
+  
   if (Platform.OS !== 'web') {
     usePreventScreenCapture();
   }
@@ -146,7 +147,7 @@ const Card = ({ position, category, question, zIndex, isPressable, setIsPressabl
   }
 
   return (
-    <Animated.View style={[styles.pressable, scaleStyle, { zIndex: isScaled ? 1000 : zIndex }]}>
+    <Animated.View style={[styles.pressable, scaleStyle, top = { top }, { zIndex: isScaled ? 1000 : zIndex }]}>
       <Pressable onPress={handleCardPress} style={styles.pressable} disabled={!isPressable}>
         <View style={styles.cardContainer}>
           <Animated.View style={[styles.card, styles.cardFront, flipToFrontStyle]}>
@@ -155,6 +156,7 @@ const Card = ({ position, category, question, zIndex, isPressable, setIsPressabl
               style={styles.imageBackgroundBackCard}
             >
             </ImageBackground>
+            <Text style={styles.categoryText}>{category}</Text>
             <Text style={styles.flipText}>CLICK</Text>
           </Animated.View>
           <Animated.View style={[styles.card, styles.cardBack, flipToBackStyle]}>
@@ -163,10 +165,9 @@ const Card = ({ position, category, question, zIndex, isPressable, setIsPressabl
               style={styles.imageBackgroundFrontCard}
             >
             </ImageBackground>
-            <Text style={styles.categoryText}>{category}</Text>
             <Text style={styles.text}>{question.text}</Text>
             <ShareComponent message={`Check out this question from the ${category} category: https://example.com/category/${category}/${position}`} />
-            <RatingComponent ratingValue={question.rating} category={category} position={position} isPressable={isPressable} isFlipped={isFlipped} />
+            <RatingComponent category={category} position={position} isPressable={isPressable} isFlipped={isFlipped} />
           </Animated.View>
         </View>
       </Pressable>
@@ -179,6 +180,7 @@ const { width, height } = Dimensions.get('window');
 const styles = StyleSheet.create({
   pressable: {
     position: 'absolute',
+    top: '15%',
     width: width * 0.7,
     height: height * 0.6,
   },
@@ -209,7 +211,7 @@ const styles = StyleSheet.create({
     top: '30%',
     width: 150,
     height: 150,
-    opacity: 0.3,
+    opacity: 0.5,
   },
   cardContainer: {
     width: '100%',
@@ -231,15 +233,20 @@ const styles = StyleSheet.create({
     borderColor: 'white',
   },
   cardFront: {
+    // backgroundColor: '#ff0000', // Front side color (red)
   },
   cardBack: {
+    // backgroundColor: '#0000ff', // Back side color (blue)
     transform: [{ rotateY: '180deg' }], // Ensure the back side is rotated
   },
   text: {
+    position: 'absolute',
+    top: '30%',
     fontSize: 17,
     textAlign: 'center',
+    width: '80%',
+    fontWeight: 'bold',
     color: 'white',
-    letterSpacing: 5
   },
 });
 

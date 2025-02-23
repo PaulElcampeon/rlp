@@ -1,9 +1,7 @@
 import React, { useState, useLayoutEffect } from 'react';
 import { View, StyleSheet } from 'react-native';
-import Card from './components/QuestionCard1';
-import data from './data/questions.json';
-
-// import { questions } from './data/questions';
+import Card from './components/QuestionCardWithTopSetting';
+import { questions } from './data/questions';
 import { useNavigation, useRoute } from '@react-navigation/native';
 
 const QuestionCard = () => {
@@ -24,15 +22,16 @@ const QuestionCard = () => {
 
   return (
     <View style={styles.container}>
-      {data.questions[category].map((question, index) =>
+      {questions[category].questions.map((question, index) =>
         <Card
           key={index}
           position={index}
           category={category}
           question={question}
-          zIndex={data.questions[category].length - index}
+          zIndex={questions[category].questions.length - index}
           isPressable={isPressable}
-          setIsPressable={setIsPressable} />
+          setIsPressable={setIsPressable}
+          top={index > 5 ? '4%' : (7 - index).toString() + '%'} />
       )}
     </View>
   );

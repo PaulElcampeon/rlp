@@ -1,8 +1,9 @@
 import { View, StyleSheet, FlatList, ImageBackground } from 'react-native';
 import CategoryCard from '../components/CategoryCard';
-import { questions } from '../data/questions';
+// import { questions } from '../data/questions';
+import data from '../data/questions.json';
 
-const categories = Object.keys(questions)
+const categories = Object.keys(data.questions)
 
 export default function CategoryScreen() {
   return (
@@ -15,7 +16,7 @@ export default function CategoryScreen() {
       </ImageBackground>
       <FlatList
         data={categories}
-        renderItem={({ item }) => <CategoryCard category={item} categoryInfo={questions[item]} />}
+        renderItem={({ item }) => <CategoryCard category={item} questions={data.questions[item]} />}
         keyExtractor={(item) => item}
         numColumns={1}
         contentContainerStyle={styles.contentContainer}

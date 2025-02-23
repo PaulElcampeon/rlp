@@ -1,0 +1,2160 @@
+{
+  "questions": {
+    "Finances": [
+      {
+        "id": 3991,
+        "category": "Finances",
+        "rating": 0,
+        "text": "Do you know what you expect from your partner financially? If so/no, what do you expect from your partner financially?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 3992,
+        "category": "Finances",
+        "rating": 0,
+        "text": "How important to you is your partner's current financial situation?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 3993,
+        "category": "Finances",
+        "rating": 0,
+        "text": "If you know your partner's salary is going to stay the same as it is currently, will you still be happy with the life they can provide for you?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 3994,
+        "category": "Finances",
+        "rating": 0,
+        "text": "How important are finances to you?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 3995,
+        "category": "Finances",
+        "rating": 0,
+        "text": "What do you expect your partner to earn in order to give you a life you are happy/content with?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 3996,
+        "category": "Finances",
+        "rating": 0,
+        "text": "Do you believe in sticking to a budget? If so/no, is your partner also onboard with this?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 3997,
+        "category": "Finances",
+        "rating": 0,
+        "text": "Do you and your partner believe its ok to live in credit card debt?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 3998,
+        "category": "Finances",
+        "rating": 0,
+        "text": "Do you believe its ok to buy things (excluding house) on finance that you cannot afford outright?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 3999,
+        "category": "Finances",
+        "rating": 0,
+        "text": "Do you believe you should save up the money you need or take a loan out to purchase what you want?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4000,
+        "category": "Finances",
+        "rating": 0,
+        "text": "Should both you and your partner be involved in budgeting for the household or can that responsibility be given to one person?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4001,
+        "category": "Finances",
+        "rating": 0,
+        "text": "Should you have a joint account when your married? if so/no why?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4002,
+        "category": "Finances",
+        "rating": 0,
+        "text": "Do you believe when buying a house together, you should take out the maximum mortgage available to you or do you think you should be more conservative?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4003,
+        "category": "Finances",
+        "rating": 0,
+        "text": "Are you ok with your partner making expensive purchases without discussing it with you first?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4004,
+        "category": "Finances",
+        "rating": 0,
+        "text": "What would really make you feel financially unsafe in your marriage?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4005,
+        "category": "Finances",
+        "rating": 0,
+        "text": "Do you believe its essential to clear any debts your may have in order to feel financially stable in a marriage?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4006,
+        "category": "Finances",
+        "rating": 0,
+        "text": "In your marriage how will you and your partner handle family members asking to borrow money from you?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4007,
+        "category": "Finances",
+        "rating": 0,
+        "text": "Does your partner have a financial goal for their future? if so what is it? and if not why not?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4008,
+        "category": "Finances",
+        "rating": 0,
+        "text": "Do you and your partner want to have kids? If so, have you decided when you would like kids and what financial situation you would want to be in?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4009,
+        "category": "Finances",
+        "rating": 0,
+        "text": "Do you think having kids will be a strain on your finances? if so and you want to have kids, are you and your partner working to a position where it wont be financially straining?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4010,
+        "category": "Finances",
+        "rating": 0,
+        "text": "What do you spend money on irresponsibly? do you think this will be ok in a relationship?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4011,
+        "category": "Finances",
+        "rating": 0,
+        "text": "Where would you like to live in the future? does your partner know about this? can you and your partner afford a house in that area?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4012,
+        "category": "Finances",
+        "rating": 0,
+        "text": "Do you believe you need to be financially stable before you propose or marry your partner?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4013,
+        "category": "Finances",
+        "rating": 0,
+        "text": "How much is appropriate to spend on a wedding?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4014,
+        "category": "Finances",
+        "rating": 0,
+        "text": "Is it ok to take a loan out to pay for your wedding?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4015,
+        "category": "Finances",
+        "rating": 0,
+        "text": "If your wedding costs £10k and you have no deposit to buy a house, do you think this is a financially wise decision?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4016,
+        "category": "Finances",
+        "rating": 0,
+        "text": "Envisioning your financial future for your family, do you think it is feasible for your partner to be a stay at home parent?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4017,
+        "category": "Finances",
+        "rating": 0,
+        "text": "What are your financial goals and priorities in the short term and long term?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4018,
+        "category": "Finances",
+        "rating": 0,
+        "text": "How do you feel about joint finances, such as merging bank accounts or sharing expenses?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4019,
+        "category": "Finances",
+        "rating": 0,
+        "text": "Are there any significant financial obligations or responsibilities you have, like child support or alimony?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4020,
+        "category": "Finances",
+        "rating": 0,
+        "text": "What is your credit score, and have you checked your credit report recently?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4021,
+        "category": "Finances",
+        "rating": 0,
+        "text": "Have you ever filed for bankruptcy or faced financial hardships in the past?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4022,
+        "category": "Finances",
+        "rating": 0,
+        "text": "How do you approach saving for emergencies, retirement, or future financial goals?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4023,
+        "category": "Finances",
+        "rating": 0,
+        "text": "Are you comfortable discussing money openly and honestly?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4024,
+        "category": "Finances",
+        "rating": 0,
+        "text": "How do you envision splitting expenses if we decide to live together or get married?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4025,
+        "category": "Finances",
+        "rating": 0,
+        "text": "Do you have any financial obligations to family members or dependents?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4026,
+        "category": "Finances",
+        "rating": 0,
+        "text": "Are there any financial decisions or investments you'd like to make in the near future?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4027,
+        "category": "Finances",
+        "rating": 0,
+        "text": "How do you feel about prenuptial agreements or similar legal financial arrangements?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4028,
+        "category": "Finances",
+        "rating": 0,
+        "text": "What is your approach to charitable giving and supporting causes?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4029,
+        "category": "Finances",
+        "rating": 0,
+        "text": "Have you ever experienced financial conflicts or issues in past relationships, and if so, how were they resolved?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4030,
+        "category": "Finances",
+        "rating": 0,
+        "text": "Are you open to seeking financial advice or counseling if needed in the future?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4031,
+        "category": "Finances",
+        "rating": 0,
+        "text": "What is your current financial situation, including income, savings, and debts?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4032,
+        "category": "Finances",
+        "rating": 0,
+        "text": "Do you have a budget or financial plan in place?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      }
+    ],
+    "Religion": [
+      {
+        "id": 4154,
+        "category": "Religion",
+        "rating": 0,
+        "text": "Are there any deal-breakers for you when it comes to values or beliefs in a partner?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4155,
+        "category": "Religion",
+        "rating": 0,
+        "text": "What is your personal faith journey or spiritual background?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4156,
+        "category": "Religion",
+        "rating": 0,
+        "text": "How would you describe your current relationship with God or your faith?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4157,
+        "category": "Religion",
+        "rating": 0,
+        "text": "What denomination or Christian tradition do you belong to, if any?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4158,
+        "category": "Religion",
+        "rating": 0,
+        "text": "Are regular church attendance and involvement in a church community important to you?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4159,
+        "category": "Religion",
+        "rating": 0,
+        "text": "What are your core beliefs about God, Jesus Christ, the Bible, and salvation?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4160,
+        "category": "Religion",
+        "rating": 0,
+        "text": "Do you have specific religious practices or rituals that are essential to your faith?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4161,
+        "category": "Religion",
+        "rating": 0,
+        "text": "How do you approach prayer and personal devotions?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4162,
+        "category": "Religion",
+        "rating": 0,
+        "text": "Are there any theological or doctrinal differences between us that we should discuss?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4163,
+        "category": "Religion",
+        "rating": 0,
+        "text": "How do you feel about raising children within the Christian faith and involving them in church activities?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4164,
+        "category": "Religion",
+        "rating": 0,
+        "text": "Have you ever been involved in Christian ministry or volunteer work?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4165,
+        "category": "Religion",
+        "rating": 0,
+        "text": "What role does faith play in making major life decisions, such as career choices or relationships?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4166,
+        "category": "Religion",
+        "rating": 0,
+        "text": "How do you handle doubts or periods of spiritual struggle in your faith journey?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4167,
+        "category": "Religion",
+        "rating": 0,
+        "text": "Are you open to exploring and growing in your faith alongside your partner?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4168,
+        "category": "Religion",
+        "rating": 0,
+        "text": "Do you have any expectations or desires regarding your partner's level of involvement in your faith community?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4169,
+        "category": "Religion",
+        "rating": 0,
+        "text": "How do you view the importance of Christian values and ethics in everyday life?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4170,
+        "category": "Religion",
+        "rating": 0,
+        "text": "Have you experienced any significant spiritual milestones or transformative moments in your faith?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4171,
+        "category": "Religion",
+        "rating": 0,
+        "text": "Are you willing to support your partner's spiritual growth and journey, even if it differs from your own?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4172,
+        "category": "Religion",
+        "rating": 0,
+        "text": "How do you handle disagreements or differing beliefs within the context of your faith?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4173,
+        "category": "Religion",
+        "rating": 0,
+        "text": "What are your thoughts on evangelism and sharing your faith with others?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4174,
+        "category": "Religion",
+        "rating": 0,
+        "text": "Are there any specific religious or spiritual goals you have for your future together?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4175,
+        "category": "Religion",
+        "rating": 0,
+        "text": "Have you ever experienced church burnout and if so how, what and how does that look like to you?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      }
+    ],
+    "Expectations": [
+      {
+        "id": 4225,
+        "category": "Expectations",
+        "rating": 0,
+        "text": "Do you know what you expect from your partner financially? If so/no, what do you expect from your partner financially?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4226,
+        "category": "Expectations",
+        "rating": 0,
+        "text": "Do you know what you expect from your partner romantically? If so/no, what do you expect from your partner romantically?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4227,
+        "category": "Expectations",
+        "rating": 0,
+        "text": "What do you think marriage will give you?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4228,
+        "category": "Expectations",
+        "rating": 0,
+        "text": "What do you expect your partner to earn in order to give you a life you are happy/content with?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4229,
+        "category": "Expectations",
+        "rating": 0,
+        "text": "If your partner cannot afford to give you the lifestyle you want, will you hold some resentment towards them or will you go out to work to support them?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4230,
+        "category": "Expectations",
+        "rating": 0,
+        "text": "Do both you and your partner believe in taking marriage counselling prior to getting married?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4231,
+        "category": "Expectations",
+        "rating": 0,
+        "text": "Is it ok for your partner to be a regular viewer of porno?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4232,
+        "category": "Expectations",
+        "rating": 0,
+        "text": "How important is it that your partner helps you with house work?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4233,
+        "category": "Expectations",
+        "rating": 0,
+        "text": "Where would you like to live in the future? does your partner know about this? can you and your partner afford a house in that area?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4234,
+        "category": "Expectations",
+        "rating": 0,
+        "text": "If you want kids or planning on having kids will you allow them to eat junk food?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4235,
+        "category": "Expectations",
+        "rating": 0,
+        "text": "Do you believe your partner should improve/enhance your life?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4236,
+        "category": "Expectations",
+        "rating": 0,
+        "text": "How do you envision dividing household responsibilities?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4237,
+        "category": "Expectations",
+        "rating": 0,
+        "text": "Are there any deal-breakers for you when it comes to values or beliefs in a partner?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4238,
+        "category": "Expectations",
+        "rating": 0,
+        "text": "What do you class as cheating/infidelity?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      }
+    ],
+    "Intimacy": [
+      {
+        "id": 4053,
+        "category": "Intimacy",
+        "rating": 0,
+        "text": "Do you know what you expect from your partner romantically? If so/no, what do you expect from your partner romantically?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4054,
+        "category": "Intimacy",
+        "rating": 0,
+        "text": "How are you going to ensure that both you and your partner's physical and sexual needs are met?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4055,
+        "category": "Intimacy",
+        "rating": 0,
+        "text": "What are you going to do to ensure you stay attractive to your partner?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4056,
+        "category": "Intimacy",
+        "rating": 0,
+        "text": "Will you still find your partner attractive if they put on a significant amount of weight?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4057,
+        "category": "Intimacy",
+        "rating": 0,
+        "text": "If weight is going to be a factor in how attractive you find your partner, have you made them aware of this?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4058,
+        "category": "Intimacy",
+        "rating": 0,
+        "text": "If your partner puts on weight and you find this unappealing, how will you communicate this concern to them?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4059,
+        "category": "Intimacy",
+        "rating": 0,
+        "text": "How would you rate the importance of sex in helping and maintaining a good healthy marriage?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4060,
+        "category": "Intimacy",
+        "rating": 0,
+        "text": "How long do you think is appropriate to go without sex with your partner?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4061,
+        "category": "Intimacy",
+        "rating": 0,
+        "text": "If your partner is not initiating sex with you, how are you going to communicate with them that this is a problem?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4062,
+        "category": "Intimacy",
+        "rating": 0,
+        "text": "Does your partner know your love language?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4063,
+        "category": "Intimacy",
+        "rating": 0,
+        "text": "Are you open to trying new things out in the bedroom? If you partner says they dont feel comfortable how will you take this?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4064,
+        "category": "Intimacy",
+        "rating": 0,
+        "text": "What does love look like to you?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4065,
+        "category": "Intimacy",
+        "rating": 0,
+        "text": "How would you feel if you partner withheld sex from you?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4066,
+        "category": "Intimacy",
+        "rating": 0,
+        "text": "What does a fulfilling and satisfying sex life mean to you?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4067,
+        "category": "Intimacy",
+        "rating": 0,
+        "text": "Do you have any sexual preferences and desires?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4068,
+        "category": "Intimacy",
+        "rating": 0,
+        "text": "What are your expectations regarding frequency of having sex?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4069,
+        "category": "Intimacy",
+        "rating": 0,
+        "text": "What are your thoughts on spontaneity versus planned intimacy in our relationship?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4070,
+        "category": "Intimacy",
+        "rating": 0,
+        "text": "How do you communicate your sexual needs and desires, and how do you prefer your partner to do the same?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4071,
+        "category": "Intimacy",
+        "rating": 0,
+        "text": "Are there any sexual boundaries or limitations that I should be aware of?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4072,
+        "category": "Intimacy",
+        "rating": 0,
+        "text": "Have you been tested for sexually transmitted infections (STIs), and what is your approach to sexual health?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4073,
+        "category": "Intimacy",
+        "rating": 0,
+        "text": "What methods of contraception or protection do you prefer to use?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4074,
+        "category": "Intimacy",
+        "rating": 0,
+        "text": "How do you handle sexual disagreements or conflicts in a relationship?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4075,
+        "category": "Intimacy",
+        "rating": 0,
+        "text": "Are you comfortable discussing sexual health and sexual history openly?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4076,
+        "category": "Intimacy",
+        "rating": 0,
+        "text": "Do you have any past experiences or traumas that may affect our sexual relationship?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4077,
+        "category": "Intimacy",
+        "rating": 0,
+        "text": "What are your views on experimenting with new sexual experiences or activities together?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4078,
+        "category": "Intimacy",
+        "rating": 0,
+        "text": "Are there any medical or physical conditions that may impact our sexual relationship?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4079,
+        "category": "Intimacy",
+        "rating": 0,
+        "text": "How important is emotional intimacy to you in the context of a sexual relationship?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4080,
+        "category": "Intimacy",
+        "rating": 0,
+        "text": "Have you ever sought or considered therapy or counseling for sexual issues or concerns?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4081,
+        "category": "Intimacy",
+        "rating": 0,
+        "text": "What are your thoughts on maintaining sexual passion and desire over the long term in a relationship?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4082,
+        "category": "Intimacy",
+        "rating": 0,
+        "text": "Are there any specific turn-ons or turn-offs you'd like me to be aware of?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4083,
+        "category": "Intimacy",
+        "rating": 0,
+        "text": "How do you feel about using sexual aids or toys in the bedroom?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4084,
+        "category": "Intimacy",
+        "rating": 0,
+        "text": "What is your stance on the role of sexual communication and feedback in our relationship?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      }
+    ],
+    "COMMUNICATION": [
+      {
+        "id": 4215,
+        "category": "COMMUNICATION",
+        "rating": 0,
+        "text": "How are you going to ensure that any worries you have are communicated effectively to your partner (are you going to put time aside each day to talk about any concerns you may have)?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4216,
+        "category": "COMMUNICATION",
+        "rating": 0,
+        "text": "If your partner has an issue with the outfit your wearing to go out? will you listen to their concerns or ignore it?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4217,
+        "category": "COMMUNICATION",
+        "rating": 0,
+        "text": "Would you be happy for your partner to have a personal trainer who was the opposite sex from them? if so/no why?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4218,
+        "category": "COMMUNICATION",
+        "rating": 0,
+        "text": "If your partner disrespects you, how will you communicate this to them?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4219,
+        "category": "COMMUNICATION",
+        "rating": 0,
+        "text": "If your partner tells you, you're putting on weight, what do you think the appropriate response should be?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4220,
+        "category": "COMMUNICATION",
+        "rating": 0,
+        "text": "How do you respond to anger and deal with conflict?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      }
+    ],
+    "MARRIAGE": [
+      {
+        "id": 4221,
+        "category": "MARRIAGE",
+        "rating": 0,
+        "text": "What do you worry most about losing entering into a marriage?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4222,
+        "category": "MARRIAGE",
+        "rating": 0,
+        "text": "What do you think marriage will take from you?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4223,
+        "category": "MARRIAGE",
+        "rating": 0,
+        "text": "What is your worst fear about being married? have you told your partner about this?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4224,
+        "category": "MARRIAGE",
+        "rating": 0,
+        "text": "What do you enjoy most about being single? How are you going to make sure that what you enjoy being single is transferred into your marriage?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      }
+    ],
+    "Family": [
+      {
+        "id": 4114,
+        "category": "Family",
+        "rating": 0,
+        "text": "Can you describe your relationship with your immediate family members (parents and siblings)?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4115,
+        "category": "Family",
+        "rating": 0,
+        "text": "How often do you communicate with or visit your family?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4116,
+        "category": "Family",
+        "rating": 0,
+        "text": "Are there any cultural or familial traditions that are significant to you or your family?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4117,
+        "category": "Family",
+        "rating": 0,
+        "text": "What role do your family's values and beliefs play in your life and decision-making?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4118,
+        "category": "Family",
+        "rating": 0,
+        "text": "Have there been any significant family events or experiences that have shaped who you are today?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4119,
+        "category": "Family",
+        "rating": 0,
+        "text": "How do you handle conflicts or disagreements within your family?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4120,
+        "category": "Family",
+        "rating": 0,
+        "text": "Are there any unresolved issues or tensions within your family that may affect our relationship?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4121,
+        "category": "Family",
+        "rating": 0,
+        "text": "What are your expectations regarding spending holidays and special occasions with family versus with your partner?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4122,
+        "category": "Family",
+        "rating": 0,
+        "text": "Do you have any close or extended family members who may require caregiving or support in the future?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4123,
+        "category": "Family",
+        "rating": 0,
+        "text": "How do you envision involving your family in our relationship or potential future family life?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4124,
+        "category": "Family",
+        "rating": 0,
+        "text": "Are there any specific family members or relationships in your past that you'd like me to be aware of?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4125,
+        "category": "Family",
+        "rating": 0,
+        "text": "How do you feel about your partner spending time with or getting to know your family members?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4126,
+        "category": "Family",
+        "rating": 0,
+        "text": "Have you discussed your family's views on your potential partner or any concerns they may have?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4127,
+        "category": "Family",
+        "rating": 0,
+        "text": "Are there any family traditions or rituals that you would like to continue or establish in our relationship?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4128,
+        "category": "Family",
+        "rating": 0,
+        "text": "How do you balance the expectations and desires of your family with those of your partner in a relationship?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4129,
+        "category": "Family",
+        "rating": 0,
+        "text": "Are you comfortable with setting boundaries with family members when necessary?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4130,
+        "category": "Family",
+        "rating": 0,
+        "text": "How do you handle differences in values or beliefs between your family and your partner?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4131,
+        "category": "Family",
+        "rating": 0,
+        "text": "What are your thoughts on the potential for long-distance relationships with family members?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4132,
+        "category": "Family",
+        "rating": 0,
+        "text": "Have you sought counseling or therapy to address any family-related issues or dynamics if any?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4133,
+        "category": "Family",
+        "rating": 0,
+        "text": "Are there any future family-related goals or plans you'd like to share, such as starting a family of your own?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      }
+    ],
+    "Work Life Balance": [
+      {
+        "id": 4033,
+        "category": "Work Life Balance",
+        "rating": 0,
+        "text": "What does work-life balance mean to you?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4034,
+        "category": "Work Life Balance",
+        "rating": 0,
+        "text": "How important is achieving work-life balance in your life?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4035,
+        "category": "Work Life Balance",
+        "rating": 0,
+        "text": "Can you describe your current work schedule and typical work hours?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4036,
+        "category": "Work Life Balance",
+        "rating": 0,
+        "text": "Do you have any long-term career goals or aspirations that may impact your work-life balance?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4037,
+        "category": "Work Life Balance",
+        "rating": 0,
+        "text": "How do you manage stress and avoid burnout from work-related demands?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4038,
+        "category": "Work Life Balance",
+        "rating": 0,
+        "text": "Are you willing to adapt your work schedule or make changes to achieve better work-life balance?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4039,
+        "category": "Work Life Balance",
+        "rating": 0,
+        "text": "What are your expectations regarding vacations, time off, and personal time?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4040,
+        "category": "Work Life Balance",
+        "rating": 0,
+        "text": "How do you feel about your partner's career ambitions and how they may affect your relationship?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4041,
+        "category": "Work Life Balance",
+        "rating": 0,
+        "text": "Have you experienced challenges in the past related to balancing work and personal life?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4042,
+        "category": "Work Life Balance",
+        "rating": 0,
+        "text": "Do you have any specific hobbies or interests that are important for your personal well-being?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4043,
+        "category": "Work Life Balance",
+        "rating": 0,
+        "text": "How do you prioritize spending time with family and friends amid your work commitments?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4044,
+        "category": "Work Life Balance",
+        "rating": 0,
+        "text": "Are you open to discussing and negotiating work-related boundaries and expectations within the relationship?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4045,
+        "category": "Work Life Balance",
+        "rating": 0,
+        "text": "What role do you see technology and work-related communication playing in your personal life?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4046,
+        "category": "Work Life Balance",
+        "rating": 0,
+        "text": "How do you handle work-related travel or time away from home?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4047,
+        "category": "Work Life Balance",
+        "rating": 0,
+        "text": "Are there any career-related decisions that would require relocation, and how would that be handled?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4048,
+        "category": "Work Life Balance",
+        "rating": 0,
+        "text": "Do you have any concerns about potential conflicts between your career and family life?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4049,
+        "category": "Work Life Balance",
+        "rating": 0,
+        "text": "What is your stance on supporting each other's career growth and advancement?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4050,
+        "category": "Work Life Balance",
+        "rating": 0,
+        "text": "Have you discussed financial goals and the impact of work on achieving those goals?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4051,
+        "category": "Work Life Balance",
+        "rating": 0,
+        "text": "How do you envision dividing household responsibilities to ensure a fair balance?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4052,
+        "category": "Work Life Balance",
+        "rating": 0,
+        "text": "How do you envision your partner's role in supporting your work-life balance goals?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      }
+    ],
+    "Health": [
+      {
+        "id": 4209,
+        "category": "Health",
+        "rating": 0,
+        "text": "How can your partner support you in maintaining a healthy lifestyle?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4210,
+        "category": "Health",
+        "rating": 0,
+        "text": "How do you prioritize physical and mental health?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4211,
+        "category": "Health",
+        "rating": 0,
+        "text": "Are there any activities or hobbies you'd like to explore together?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4212,
+        "category": "Health",
+        "rating": 0,
+        "text": "Do you believe in the use of illegal substances such as Cannabis?  if so do you use it?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4213,
+        "category": "Health",
+        "rating": 0,
+        "text": "What are your expectations of your partner when it comes to having a shower and brushing their teeth?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4214,
+        "category": "Health",
+        "rating": 0,
+        "text": "Are you happy to financially support your partners grooming activities?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      }
+    ],
+    "Divorce": [
+      {
+        "id": 4134,
+        "category": "Divorce",
+        "rating": 0,
+        "text": "Have you ever been married before? If so, please tell me about your previous marriage(s).",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4135,
+        "category": "Divorce",
+        "rating": 0,
+        "text": "What were the reasons for your previous divorce(s), if applicable?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4136,
+        "category": "Divorce",
+        "rating": 0,
+        "text": "How have your past experiences with divorce impacted you emotionally and personally?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4137,
+        "category": "Divorce",
+        "rating": 0,
+        "text": "Are there any financial obligations, such as alimony or child support, resulting from your previous marriage(s)?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4138,
+        "category": "Divorce",
+        "rating": 0,
+        "text": "What have you learned from your past relationships or divorces that you'd like to apply to our potential relationship?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4139,
+        "category": "Divorce",
+        "rating": 0,
+        "text": "Do you have any concerns or fears related to divorce that you'd like to discuss?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4140,
+        "category": "Divorce",
+        "rating": 0,
+        "text": "What are your views on the importance of prenuptial agreements or similar legal arrangements?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4141,
+        "category": "Divorce",
+        "rating": 0,
+        "text": "Have you considered what role your family or friends played in your previous divorce(s), and how might that affect our relationship?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4142,
+        "category": "Divorce",
+        "rating": 0,
+        "text": "How do you handle conflicts and disagreements in a relationship, and how would you approach them differently, if at all?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4143,
+        "category": "Divorce",
+        "rating": 0,
+        "text": "What steps have you taken or are willing to take to ensure a successful and lasting relationship this time around?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4144,
+        "category": "Divorce",
+        "rating": 0,
+        "text": "Are there any specific triggers or issues that led to the breakdown of your previous marriage(s) that we should be aware of?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4145,
+        "category": "Divorce",
+        "rating": 0,
+        "text": "How do you view the concept of marriage and commitment in light of your previous experiences?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4146,
+        "category": "Divorce",
+        "rating": 0,
+        "text": "Have you sought counseling or therapy to address any unresolved emotional or relational issues related to your previous divorce(s)?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4147,
+        "category": "Divorce",
+        "rating": 0,
+        "text": "What are your expectations regarding communication, trust, and transparency in our potential relationship?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4148,
+        "category": "Divorce",
+        "rating": 0,
+        "text": "How do you envision handling the blending of families or co-parenting if you have children from a previous marriage?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4149,
+        "category": "Divorce",
+        "rating": 0,
+        "text": "Are you open to seeking couples' counseling or therapy if we encounter challenges in our relationship?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4150,
+        "category": "Divorce",
+        "rating": 0,
+        "text": "Have you done any personal growth or self-reflection since your previous divorce(s)?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4151,
+        "category": "Divorce",
+        "rating": 0,
+        "text": "How do you feel about the potential for reconciliation with your ex-spouse(s) if circumstances change?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4152,
+        "category": "Divorce",
+        "rating": 0,
+        "text": "What role, if any, do your religious or cultural beliefs play in your views on divorce and remarriage?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4153,
+        "category": "Divorce",
+        "rating": 0,
+        "text": "How would you like us to navigate potential differences or challenges that may arise in our relationship, considering our respective pasts?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      }
+    ],
+    "Kids": [
+      {
+        "id": 4085,
+        "category": "Kids",
+        "rating": 0,
+        "text": "If you want kids, have you decided how many kids you want with your partner?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4086,
+        "category": "Kids",
+        "rating": 0,
+        "text": "If you and your partner want kids have you decided how you want to raise them (education, discipline)?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4087,
+        "category": "Kids",
+        "rating": 0,
+        "text": "Do you and your partner want to have kids? If so have you decided when you would like kids and what financial situation you would want to be in?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4088,
+        "category": "Kids",
+        "rating": 0,
+        "text": "Do you think having kids will be a strain on your finances? if so and you want to have kids are you and your partner working to a position where it wont be financially straining?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4089,
+        "category": "Kids",
+        "rating": 0,
+        "text": "If you want kids or planning on having kids will you allow them to eat junk food?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4090,
+        "category": "Kids",
+        "rating": 0,
+        "text": "If you want kids, do you worry about the world you are bringing them into?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4091,
+        "category": "Kids",
+        "rating": 0,
+        "text": "If you want to have children, what type of parent do you aspire to be?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4092,
+        "category": "Kids",
+        "rating": 0,
+        "text": "If you do want children, would you ever considering fostering or adopting?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4093,
+        "category": "Kids",
+        "rating": 0,
+        "text": "What do you see your role is as a parent and how much involvement do you want to have in your childs life?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4094,
+        "category": "Kids",
+        "rating": 0,
+        "text": "If and when you have kids, do you believe a paternity test should be done?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4095,
+        "category": "Kids",
+        "rating": 0,
+        "text": "When do you see yourselves starting a family, if at all?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4096,
+        "category": "Kids",
+        "rating": 0,
+        "text": "Are there any specific conditions or circumstances under which you would not want to have children?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4097,
+        "category": "Kids",
+        "rating": 0,
+        "text": "What are your reasons for wanting or not wanting children?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4098,
+        "category": "Kids",
+        "rating": 0,
+        "text": "Have you thought about adoption or alternative ways of building a family?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4099,
+        "category": "Kids",
+        "rating": 0,
+        "text": "How do you feel about parenting roles and responsibilities? What roles do you see each of you playing?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4100,
+        "category": "Kids",
+        "rating": 0,
+        "text": "What are your parenting philosophies and values? Are there any non-negotiables when it comes to raising children?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4101,
+        "category": "Kids",
+        "rating": 0,
+        "text": "How do you plan to balance work, family, and personal life once children are in the picture?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4102,
+        "category": "Kids",
+        "rating": 0,
+        "text": "What are your thoughts on discipline and how to handle behavioral issues with children?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4103,
+        "category": "Kids",
+        "rating": 0,
+        "text": "Have you considered the financial aspects of raising children, such as education, healthcare, and childcare costs?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4104,
+        "category": "Kids",
+        "rating": 0,
+        "text": "Do you have any concerns about genetic or hereditary health conditions that might affect your decision to have children?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4105,
+        "category": "Kids",
+        "rating": 0,
+        "text": "Are there any cultural or religious beliefs that might impact your approach to parenting?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4106,
+        "category": "Kids",
+        "rating": 0,
+        "text": "How do you envision involving extended family members in the lives of your children?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4107,
+        "category": "Kids",
+        "rating": 0,
+        "text": "Are you open to the possibility of fertility treatments or other medical interventions if necessary?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4108,
+        "category": "Kids",
+        "rating": 0,
+        "text": "Have you or your partner ever experienced difficulties with fertility, and if so, how have you handled it?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4109,
+        "category": "Kids",
+        "rating": 0,
+        "text": "What is your stance on family planning methods, including contraception and family size control?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4110,
+        "category": "Kids",
+        "rating": 0,
+        "text": "How do you plan to support each other emotionally and practically during pregnancy and childbirth?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4111,
+        "category": "Kids",
+        "rating": 0,
+        "text": "Do you both agree on the importance of vaccinations and healthcare for your children?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4112,
+        "category": "Kids",
+        "rating": 0,
+        "text": "What is your approach to education, including public, private, or homeschooling options?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4113,
+        "category": "Kids",
+        "rating": 0,
+        "text": "Do you believe in beating your kids?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      }
+    ],
+    "Non Categorized": [
+      {
+        "id": 4239,
+        "category": "Non Categorized",
+        "rating": 0,
+        "text": "Does it bother you that you may see other couples living a more lavish lifestlye than you and your partner?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4240,
+        "category": "Non Categorized",
+        "rating": 0,
+        "text": "If anything what would you change about your partner?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4241,
+        "category": "Non Categorized",
+        "rating": 0,
+        "text": "If you could not change anything about your partner would you still be happy to be with them for the rest of your life?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4242,
+        "category": "Non Categorized",
+        "rating": 0,
+        "text": "What value would you say you appreciate the most your partner?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4243,
+        "category": "Non Categorized",
+        "rating": 0,
+        "text": "Is there anything you and your partner currently disagree on? if so are you happy to carry on a relationship with them if they never agree with you on that topic?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4244,
+        "category": "Non Categorized",
+        "rating": 0,
+        "text": "Are you happy for your partner to go on a holiday with their friends? if you have any concerns what would they be?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4245,
+        "category": "Non Categorized",
+        "rating": 0,
+        "text": "Do you believe its a good idea for both you and your partner to get therapy?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4246,
+        "category": "Non Categorized",
+        "rating": 0,
+        "text": "What does a controlling partner look like to you?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4247,
+        "category": "Non Categorized",
+        "rating": 0,
+        "text": "Would you be happy for your partner to have a personal trainer who was the opposite sex from them? if so/no why?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4248,
+        "category": "Non Categorized",
+        "rating": 0,
+        "text": "If your partner cheated on you, do you think you could ever regain that trust back?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4249,
+        "category": "Non Categorized",
+        "rating": 0,
+        "text": "How would you feel if your partner told you to have an abortion?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4250,
+        "category": "Non Categorized",
+        "rating": 0,
+        "text": "What does respect look like to you in a marriage?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4251,
+        "category": "Non Categorized",
+        "rating": 0,
+        "text": "Do you hold onto any specific gender stereotypes in the context of marriage? if so what are they?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4252,
+        "category": "Non Categorized",
+        "rating": 0,
+        "text": "How important is it that your partner helps you with house work?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4253,
+        "category": "Non Categorized",
+        "rating": 0,
+        "text": "What do you consider to be a liability in a partner?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4254,
+        "category": "Non Categorized",
+        "rating": 0,
+        "text": "How do you find using contraceptives?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4255,
+        "category": "Non Categorized",
+        "rating": 0,
+        "text": "Do you mind if your partner has been convicted of any crimes?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4256,
+        "category": "Non Categorized",
+        "rating": 0,
+        "text": "Have you had any same sex attraction?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      }
+    ],
+    "Porn": [
+      {
+        "id": 4196,
+        "category": "Porn",
+        "rating": 0,
+        "text": "What are your thoughts and feelings about pornography?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4197,
+        "category": "Porn",
+        "rating": 0,
+        "text": "Have you consumed or currently consume pornography, and if so, how frequently?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4198,
+        "category": "Porn",
+        "rating": 0,
+        "text": "How do you perceive the impact of pornography on relationships and sexual satisfaction?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4199,
+        "category": "Porn",
+        "rating": 0,
+        "text": "Are there specific reasons or motivations for your use of pornography, if applicable?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4200,
+        "category": "Porn",
+        "rating": 0,
+        "text": "Are there any concerns or issues related to pornography that you'd like to address in our relationship?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4201,
+        "category": "Porn",
+        "rating": 0,
+        "text": "Have you ever felt that pornography has negatively affected your previous relationships or personal life?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4202,
+        "category": "Porn",
+        "rating": 0,
+        "text": "Do you think pornography can have a positive or negative influence on a romantic relationship?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4203,
+        "category": "Porn",
+        "rating": 0,
+        "text": "Are there any boundaries or limits you'd like to establish regarding pornography in our relationship?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4204,
+        "category": "Porn",
+        "rating": 0,
+        "text": "Have you sought therapy or counseling to address any challenges related to pornography consumption?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4205,
+        "category": "Porn",
+        "rating": 0,
+        "text": "What role, if any, does your religious or moral belief system play in your views on pornography?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4206,
+        "category": "Porn",
+        "rating": 0,
+        "text": "How would you feel if you discovered that your partner was consuming pornography without your knowledge?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4207,
+        "category": "Porn",
+        "rating": 0,
+        "text": "Have you experienced any difficulties or concerns in your past related to pornography, such as addiction or obsession?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4208,
+        "category": "Porn",
+        "rating": 0,
+        "text": "Do you think it's important to disclose past or current pornography use to your partner?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      }
+    ],
+    "Where To Live": [
+      {
+        "id": 4176,
+        "category": "Where To Live",
+        "rating": 0,
+        "text": "What kind of environment do you envision for our future home?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4177,
+        "category": "Where To Live",
+        "rating": 0,
+        "text": "Do you prefer urban, suburban, or rural living, and why?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4178,
+        "category": "Where To Live",
+        "rating": 0,
+        "text": "Are there specific cities or regions you would like to consider for our residence?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4179,
+        "category": "Where To Live",
+        "rating": 0,
+        "text": "What are your priorities when it comes to choosing a location, such as proximity to work, family, or recreational activities?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4180,
+        "category": "Where To Live",
+        "rating": 0,
+        "text": "How do you feel about the cost of living in the areas you're interested in?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4181,
+        "category": "Where To Live",
+        "rating": 0,
+        "text": "Are you open to relocating for career opportunities or personal reasons?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4182,
+        "category": "Where To Live",
+        "rating": 0,
+        "text": "What type of housing do you prefer, such as apartment living or single-family homes?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4183,
+        "category": "Where To Live",
+        "rating": 0,
+        "text": "Do you have any must-have amenities or features you'd like in our future home or neighborhood?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4184,
+        "category": "Where To Live",
+        "rating": 0,
+        "text": "Are there any factors, like schools or public transportation, that are essential to your choice of location?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4185,
+        "category": "Where To Live",
+        "rating": 0,
+        "text": "How do you view the importance of safety and security in the area we choose?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4186,
+        "category": "Where To Live",
+        "rating": 0,
+        "text": "Are you willing to compromise on location if it means meeting other important life goals?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4187,
+        "category": "Where To Live",
+        "rating": 0,
+        "text": "Do you have any concerns or preferences related to the climate or geography of the area?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4188,
+        "category": "Where To Live",
+        "rating": 0,
+        "text": "What is your ideal commute time and tolerance for traffic or transportation challenges?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4189,
+        "category": "Where To Live",
+        "rating": 0,
+        "text": "How do you envision the community and neighbors in our future area?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4190,
+        "category": "Where To Live",
+        "rating": 0,
+        "text": "Are there any cultural or recreational activities or facilities you'd like to have nearby?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4191,
+        "category": "Where To Live",
+        "rating": 0,
+        "text": "Have you considered the long-term potential of the area for our family and future goals?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4192,
+        "category": "Where To Live",
+        "rating": 0,
+        "text": "Are you open to exploring different neighborhoods and cities together before making a decision?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4193,
+        "category": "Where To Live",
+        "rating": 0,
+        "text": "How do you feel about living in close proximity to family members or in a location that's farther away?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4194,
+        "category": "Where To Live",
+        "rating": 0,
+        "text": "Have you experienced any significant positive or negative aspects of living in specific areas in the past?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      },
+      {
+        "id": 4195,
+        "category": "Where To Live",
+        "rating": 0,
+        "text": "What is your timeline for finding and settling into a new home with your together or with your future partner?",
+        "createdBy": "system",
+        "updatedBy": "system"
+      }
+    ]
+  }
+}
