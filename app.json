@@ -33,6 +33,15 @@
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
         }
+      ],
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./assets/fonts/LondrinaShadow-Regular.ttf",
+            "./assets/fonts/Allura-Regular"
+          ]
+        }
       ]
     ],
     "experiments": {
