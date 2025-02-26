@@ -1,4 +1,5 @@
 import { Text, View, StyleSheet, ImageBackground } from 'react-native';
+import { Ionicons } from '@expo/vector-icons';
 
 export default function About() {
   return (
@@ -6,11 +7,12 @@ export default function About() {
       <ImageBackground
         source={require('../../assets/images/rlp-logo-1.png')}
         style={styles.imageBackground}
-        resizeMode="contain"
+        resizeMode="cover"
       >
       </ImageBackground>
       <View style={styles.card}>
         <View style={styles.descriptionContainer}>
+          <Ionicons name="information-circle" size={30} color="black" />
           <Text style={styles.cardText}>
             <Text style={styles.boldText}>Relationship Love Probe</Text> is an app designed to help you navigate relationships, whether you're dating, married, or getting to know someone.
           </Text>
@@ -19,6 +21,11 @@ export default function About() {
           </Text>
           <Text style={styles.cardText}>
             With <Text style={styles.boldText}>Relationship Love Probe</Text>, you'll be equipped to ask the right questions and make informed decisions about your connection.
+          </Text>
+          <Text style={styles.cardText}>
+            <Text>Contact us</Text>
+            {'\n'}        {'\n'}
+            <Text style={styles.boldText}>relationship-love-probe@outlook.com</Text>
           </Text>
         </View>
       </View>
@@ -31,29 +38,25 @@ const styles = StyleSheet.create({
     display: 'flex',
     flex: 1,
     backgroundColor: 'black',
-    alignItems: 'center',
-    justifyContent: 'center'
   },
   imageBackground: {
-    position: 'absolute',
-    top: '50%', 
-    left: '50%', 
-    width: 200,
-    height: 200, 
-    transform: [{ translateX: -100 }, { translateY: -100 }],
+    flex: 1,
+    opacity: 0.5
   },
   card: {
-    flex: 0.7,
-    width: '80%',
-    backgroundColor: 'black',
-    opacity: 0.8,
+    flex: 1,
+    height: '100%',
+    justifyContent: 'center',
+    position: 'absolute',
+    alignItems: 'center',
+    width: '100%',
   },
   cardText: {
     textAlign: 'center',
-    paddingVertical: 0,
     fontSize: 16,
-    color: 'white',
+    color: 'black',
     marginBottom: 10,
+    fontFamily: 'Quantico-Regular',
   },
   boldText: {
     fontWeight: 'bold',
@@ -63,9 +66,15 @@ const styles = StyleSheet.create({
     textDecorationLine: 'underline',
   },
   descriptionContainer: {
-    flex: 1,
+    flex: 0.7,
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'space-evenly',
+    backgroundColor: 'white',
+    alignItems: 'center',
+    width: '80%',
+    opacity: 0.9,
+    borderRadius: 10,
+    paddingHorizontal: 10,
   },
 });

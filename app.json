@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "expo-demo-v1",
+    "name": "R.L.P",
     "slug": "expo-demo-v1",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/rlp-logo.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
@@ -13,8 +13,8 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "foregroundImage": "./assets/images/rlp-logo.png",
+        "backgroundColor": "#000000"
       },
       "package": "com.paulthedev007.expodemov1"
     },
@@ -24,14 +24,23 @@
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./assets/fonts/Audiowide-Regular.ttf",
+            "./assets/fonts/Quantico-Regular.ttf"
+          ]
+        }
+      ],
       "expo-router",
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/splash-icon.png",
+          "image": "./assets/images/rlp-logo-1.png",
           "imageWidth": 200,
           "resizeMode": "contain",
-          "backgroundColor": "#ffffff"
+          "backgroundColor": "#000000"
         }
       ]
     ],

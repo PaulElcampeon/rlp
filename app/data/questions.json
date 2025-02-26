@@ -888,10 +888,10 @@
         "updatedBy": "system"
       }
     ],
-    "COMMUNICATION": [
+    "Communication": [
       {
         "id": 4215,
-        "category": "COMMUNICATION",
+        "category": "Communication",
         "rating": 0,
         "text": "How are you going to ensure that any worries you have are communicated effectively to your partner (are you going to put time aside each day to talk about any concerns you may have)?",
         "createdBy": "system",
@@ -899,7 +899,7 @@
       },
       {
         "id": 4216,
-        "category": "COMMUNICATION",
+        "category": "Communication",
         "rating": 0,
         "text": "If your partner has an issue with the outfit your wearing to go out? will you listen to their concerns or ignore it?",
         "createdBy": "system",
@@ -907,7 +907,7 @@
       },
       {
         "id": 4217,
-        "category": "COMMUNICATION",
+        "category": "Communication",
         "rating": 0,
         "text": "Would you be happy for your partner to have a personal trainer who was the opposite sex from them? if so/no why?",
         "createdBy": "system",
@@ -915,7 +915,7 @@
       },
       {
         "id": 4218,
-        "category": "COMMUNICATION",
+        "category": "Communication",
         "rating": 0,
         "text": "If your partner disrespects you, how will you communicate this to them?",
         "createdBy": "system",
@@ -923,7 +923,7 @@
       },
       {
         "id": 4219,
-        "category": "COMMUNICATION",
+        "category": "Communication",
         "rating": 0,
         "text": "If your partner tells you, you're putting on weight, what do you think the appropriate response should be?",
         "createdBy": "system",
@@ -931,17 +931,17 @@
       },
       {
         "id": 4220,
-        "category": "COMMUNICATION",
+        "category": "Communication",
         "rating": 0,
         "text": "How do you respond to anger and deal with conflict?",
         "createdBy": "system",
         "updatedBy": "system"
       }
     ],
-    "MARRIAGE": [
+    "Marriage": [
       {
         "id": 4221,
-        "category": "MARRIAGE",
+        "category": "Marriage",
         "rating": 0,
         "text": "What do you worry most about losing entering into a marriage?",
         "createdBy": "system",
@@ -949,7 +949,7 @@
       },
       {
         "id": 4222,
-        "category": "MARRIAGE",
+        "category": "Marriage",
         "rating": 0,
         "text": "What do you think marriage will take from you?",
         "createdBy": "system",
@@ -957,7 +957,7 @@
       },
       {
         "id": 4223,
-        "category": "MARRIAGE",
+        "category": "Marriage",
         "rating": 0,
         "text": "What is your worst fear about being married? have you told your partner about this?",
         "createdBy": "system",
@@ -965,7 +965,7 @@
       },
       {
         "id": 4224,
-        "category": "MARRIAGE",
+        "category": "Marriage",
         "rating": 0,
         "text": "What do you enjoy most about being single? How are you going to make sure that what you enjoy being single is transferred into your marriage?",
         "createdBy": "system",

@@ -4,7 +4,7 @@ import ShareComponent from './ShareComponent';
 import RatingComponent from './RatingComponent';
 import { usePreventScreenCapture } from 'expo-screen-capture';
 
-const Card = ({ position, category, question, zIndex }) => {
+const Card = ({ category, question, zIndex }) => {
   const [isFlipped, setIsFlipped] = useState(false);
   const [isScaled, setIsScaled] = useState(false);
   const flipAnimation = useRef(new Animated.Value(0)).current;
@@ -155,10 +155,10 @@ const Card = ({ position, category, question, zIndex }) => {
               style={styles.imageBackgroundFrontCard}
             >
             </ImageBackground>
-            <Text style={styles.categoryText}>{category}</Text>
+            <Text style={styles.categoryText}>{category.toUpperCase()}</Text>
             <Text style={styles.text}>{question.text}</Text>
-            <ShareComponent message={`Check out this question from the ${category} category: https://example.com/category/${category}/${position}`} />
-            <RatingComponent ratingValue={question.rating} category={category} position={position} isFlipped={isFlipped} />
+            <ShareComponent message={`Check out this question from the ${category} category: https://example.com/category/${category}/${question.id}`} />
+            <RatingComponent ratingValue={question.rating} category={category} id={question.id} isFlipped={isFlipped} />
           </Animated.View>
         </View>
       </Pressable>
@@ -186,7 +186,7 @@ const styles = StyleSheet.create({
     top: '10%',
     color: 'white',
     fontSize: 15,
-    fontWeight: 'bold',
+    fontFamily: 'Quantico-Regular',
     letterSpacing: 10
   },
   flipText: {
@@ -194,7 +194,7 @@ const styles = StyleSheet.create({
     top: '75%',
     color: 'white',
     fontSize: 20,
-    fontWeight: 'bold',
+    fontFamily: 'Quantico-Regular',
     letterSpacing: 10
   },
   imageBackgroundFrontCard: {
@@ -233,7 +233,8 @@ const styles = StyleSheet.create({
     fontSize: 17,
     textAlign: 'center',
     color: 'white',
-    letterSpacing: 5
+    letterSpacing: 5,
+    fontFamily: 'Quantico-Regular',
   },
 });
 
